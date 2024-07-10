@@ -1,0 +1,188 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background: url("../images/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+.video-bg {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.video-bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.effects {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+}
+.video-bg__content {
+    z-index: 2;
+    color: #ffffff;
+    font-size: 50px;
+}
+.main {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стили для заголовков */
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0066ff; /* Изменено на белый цвет для контраста с фоном */
+}
+
+/* Стили для секций */
+section {
+    padding: 40px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Стили для баннера */
+.banner {
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h1 {
+    font-size: 3em;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+/* Стили для медиа-секции */
+#media {
+background-image:url(../images/8.jpg);
+background-repeat: no-repeat;
+background-size: cover; 
+text-align: center;
+}
+
+.videos {
+    margin-bottom: 40px;
+}
+
+.videos iframe {
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+}
+
+.постеры {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.постеры img {
+    margin: 10px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Стили для секции контактов */
+#contacts {
+background: url("../images/2.jpg");
+background-size: cover; 
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+}
+
+.contact-form h3 {
+    color: #000;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
+
+/* Стили для ссылок */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
